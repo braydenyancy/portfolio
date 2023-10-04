@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.9fc1a144.css",
+    "main.js": "/react-portfolio/static/js/main.fede27a2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/siteAndProductPage.mp4": "/react-portfolio/static/media/siteAndProductPage.0e5b0c911639f7717a11.mp4",
+    "static/media/signInOutLocalCart.mp4": "/react-portfolio/static/media/signInOutLocalCart.afe442a3101638773ce7.mp4",
+    "static/media/Bulletproof.mp4": "/react-portfolio/static/media/Bulletproof.43a0bcf7fe1a7bfcdb9c.mp4",
+    "static/media/productList.mp4": "/react-portfolio/static/media/productList.dd49c333888913315727.mp4",
+    "static/media/slimSteel.mp4": "/react-portfolio/static/media/slimSteel.c8fb8cd2fe6d9be40ef7.mp4",
+    "static/media/polar drippy.png": "/react-portfolio/static/media/polar drippy.76c93117dbd1a80bfd19.png",
+    "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/Projects.png": "/react-portfolio/static/media/Projects.a449e91c92dc7fba0b60.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.9fc1a144.css.map": "/react-portfolio/static/css/main.9fc1a144.css.map",
+    "main.fede27a2.js.map": "/react-portfolio/static/js/main.fede27a2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fc1a144.css",
+    "static/js/main.fede27a2.js"
+  ]
+}
