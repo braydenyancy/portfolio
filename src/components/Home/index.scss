@@ -1,54 +1,60 @@
 .home-page {
+    left: 12%;
+}
 
-    .text-zone {
-        position: absolute;
-        left: 200%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 720px;
-        max-height: 90%;
-    }
-    h1 {
-        color: #fff;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'Coolvetica';
-        font-weight: 400;
+.text-zone {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 720px;
+    max-height: 90%;
+}
+h1 {
+    color: #fff;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: top -40px;
-            left: -24px;
-            animation: fadeIn 1.4s 2.4s backwards;
-        }
+    &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        left: -24px;
+        animation: fadeIn 1.4s 2.4s backwards;
+    }
 
-        &::after {
-            content: '</h1>';
-            font-family: 'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 12px;
-            animation: fadeIn 1.4s 2.4s backwards;
-        }
-    }
-    h2 {
-        color: #878787;
+    &::after {
+        content: '</h1>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 18px;
         position: absolute;
-        margin-top: 0;
-        animation: fadeIn 2.4s 3.2s backwards;
+        animation: fadeIn 1.4s 2.4s backwards;
     }
-    .flat-button {
-        color:#ffd700;
-        position: absolute;
-        margin-top: 32px;
-        animation: fadeIn 3.6s 4.2s backwards;
-    }
-    .mediaSlides {
-        width: 256px;
-    }
+}
+h2 {
+    color: #878787;
+    position: absolute;
+    animation: fadeIn 2.4s 3.2s backwards;
+}
+.flat-button {
+    color:#ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid #ffd700;
+    float: left;
+    animation: fadeIn 2.6s 3.4s backwards;
+    white-space: nowrap;
+}
+
+.projectImg {
+    margin-left: -10%;
+    animation: fadeIn 3.2s 3.8s backwards;
 }

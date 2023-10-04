@@ -1,11 +1,18 @@
+
 .nav-bar {
     background: #181818;
     width: 72px;
-    height: 100%;
     position: absolute;
-    top: 0;
     z-index: 3;
-    min-height: 768px;
+    height: 100vh;
+
+    @media (max-width: 768px) {
+        height: 200rem;
+    }
+    @media (max-width: 380px) {
+        height: 165rem;
+    }
+
     
     .logo {
         display: block;
@@ -29,9 +36,7 @@
         position: absolute;
         height: 210px;
         top: 50%;
-        margin-top: -120px;
         width: 100%;
-
         a {
             font-size: 32px;
             color: #4d4d4e;
@@ -72,9 +77,9 @@
                 }
             }
         }
-        a.about-link {
+        a.StaleFish-link {
             &:after {
-                content: 'ABOUT';
+                content: 'StaleFish';
             }
         }
 
@@ -110,12 +115,14 @@
                 color: #4d4d4e;
                 margin: 10%;
 
-
                 &:hover svg {
                     color: #ffd700;
                 }
             }
         }
 
+    }
+    .pianoRoll {
+        width: 100%;
     }
 }
