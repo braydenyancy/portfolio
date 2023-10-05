@@ -29,12 +29,12 @@ const Sidebar = (autoplay) => {
     
     return (
         <div className='nav-bar'>
-            <Link className="logo" to='/'>
+            <Link className="logo" to='/portfolio'>
                 <img src={polarDrippy} alt="logo" />
             </Link>
                 <video className="pianoRoll" onClick={handlePlayPause} ref={videoRef} autoPlay={isPlaying} src={slimSteelin} muted loop></video>
             <nav>
-                <NavLink exact="true" activeclassname="active" to="/">
+                <NavLink exact="true" activeclassname="active" to="/portfolio">
                     <FontAwesomeIcon icon={faHome} color="4d4d4e" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="StaleFish-link" to="/StaleFish">
