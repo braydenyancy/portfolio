@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import polarDrippy from '../../assets/images/polar drippy.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUsersLine } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faGamepad, faHome, faUsersLine } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import slimSteelin from '../../assets/videos/slimSteel.mp4';
 import React, { useState } from 'react';
@@ -40,6 +40,13 @@ const Sidebar = (autoplay) => {
                 <NavLink exact="true" activeclassname="active" className="StaleFish-link" to="/StaleFish">
                     <FontAwesomeIcon icon={faUsersLine} />
                 </NavLink>
+
+
+                <NavLink exact="true" activeclassname="active" className="BBArcade-link" to="/Arcade">
+                    <FontAwesomeIcon icon={faGamepad} />
+                </NavLink>
+
+
                 <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
                 </NavLink>

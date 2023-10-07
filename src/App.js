@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/portfolio" index element={<Home />} />
           <Route path="/StaleFish" element={<StaleFish />} />
+          <Route path="/Arcade" element={<Contact />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>

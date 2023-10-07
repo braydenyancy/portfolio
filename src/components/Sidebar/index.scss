@@ -5,12 +5,14 @@
     position: absolute;
     z-index: 3;
     height: 100vh;
-
+    
     @media (max-width: 768px) {
-        height: 200rem;
+        height: 224vh;
+        // width: 26vw;
     }
     @media (max-width: 380px) {
-        height: 165rem;
+        height: 224vh;
+        // width: 26vw;
     }
 
     
