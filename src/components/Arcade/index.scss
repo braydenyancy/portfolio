@@ -1,0 +1,26 @@
+.Arcade {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-48%, -50%);
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+.phoneArcade {
+    font-size: 24px;
+    display: none;
+    color: white;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+
+}
+.arcadeTitle {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffd700;
+    padding: 2em;
+}

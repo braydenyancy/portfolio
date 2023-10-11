@@ -84,6 +84,11 @@
                 content: 'StaleFish';
             }
         }
+        a.BBArcade-link {
+            &:after {
+                content: 'Arcade';
+            }
+        }
 
         a.contact-link {
             &:after {

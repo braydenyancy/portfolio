@@ -12,9 +12,14 @@ const StaleFish = () => {
     return (
 
         <div className="staleFishPage">
+            <div className="titleDiv">
+                <h4 className="projectTitle">
+                    This is StaleFish, an eCommerce site.
+                </h4>
                 <p className="summary">
-                    A Summary of the project
+                    It features skateboards, trunks, wheels, barrings and more... I helped build this as a group project for my UTD Bootcamps capstone final. It is a full stack project that uses PostgresQL, Javascript, React, Express and Morgan.
                 </p>
+            </div>
             <div className="containerRow">
                 <div className="item">
                     <h4 className="staleTitles">
@@ -48,17 +53,17 @@ const StaleFish = () => {
                 </div>
                 <div className="item">
                     <p className="p-text">
-                        imagine he played it the entire time
+                        Using JWT for local storage, users can create a cart while signed in or out, and add to the cart while signed in / out.
                     </p>
                 </div>
                 <div className="item">
                     <p className="p-text">
-                        this is another text box
+                        On the front end we use React, MUI and native CSS to create a free flowing experience for the user.
                     </p>
                 </div>
                 <div className="item">
                     <p className="p-text">
-                        the third column text
+                        We created a Database and API for the backend, that makes asynchronous calls to display products on the front end.
                     </p>
                 </div>
             </div>

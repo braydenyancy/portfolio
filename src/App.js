@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import StaleFish from './components/StaleFish';
 import Contact from './components/Contact';
+import Arcade from './components/Arcade';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/portfolio" index element={<Home />} />
           <Route path="/StaleFish" element={<StaleFish />} />
-          <Route path="/Arcade" element={<Contact />} />
+          <Route path="/Arcade" element={<Arcade />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
