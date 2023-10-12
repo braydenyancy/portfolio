@@ -22,7 +22,11 @@ const Home = () => {
                     Web Developer
                 </h1>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
-                <CardMedia className="projectImg" component="img" image={projectsIMG} alt="project" />
+                <CardMedia 
+                className="projectImg" 
+                component="img" 
+                image={projectsIMG} 
+                alt="project" />
             </div>
         </div>
     )
