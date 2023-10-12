@@ -3,10 +3,10 @@ import './index.scss';
 
 const Arcade = () => {
     return (
-        <div>
-            <div className="titleDiv">
+        <div className="arcadePage">
+            <div className="arcadeInfo">
                 <h4 className="arcadeTitle">
-                    This Arcade was created using only Javascript, CSS and HTML native.
+                    One of my first projects, this Arcade was created using only Javascript, CSS and HTML native.
                 </h4>
             </div>
 
@@ -14,21 +14,18 @@ const Arcade = () => {
                 <iframe
                     title="ArcadeFrame"
                     src="https://bbarcade.netlify.app/"
-                    width="1200px"
-                    height="900px"
-                    allowFullScreen
+                    width={'100%'}
+                    height={'100%'}
                 />
-
-
             </div>
             <div style={{
                 position: 'absolute',
                 top: '50%',
-                left: '12%',
-                width: '50vw'
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
             }}>
                 <h4 className="phoneArcade">
-                    Sorry! This isn't available on the phone right now!
+                    Sorry! This feature isn't available on the phone!
                 </h4>
 
             </div>

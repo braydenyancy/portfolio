@@ -1,13 +1,17 @@
 .home-page {
-    left: 12%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text-zone {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 720px;
-    max-height: 90%;
+    width: 75vw;
+    height: 80vh;
 }
 h1 {
     color: #fff;
@@ -15,6 +19,7 @@ h1 {
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    animation: fadeIn .8s 1.4s backwards;
 
     &::before {
         content: '<h1>';
@@ -22,7 +27,6 @@ h1 {
         color: #ffd700;
         font-size: 18px;
         position: absolute;
-        left: -24px;
         animation: fadeIn 1.4s 2.4s backwards;
     }
 
@@ -34,11 +38,6 @@ h1 {
         position: absolute;
         animation: fadeIn 1.4s 2.4s backwards;
     }
-}
-h2 {
-    color: #878787;
-    position: absolute;
-    animation: fadeIn 2.4s 3.2s backwards;
 }
 .flat-button {
     color:#ffd700;
@@ -55,6 +54,5 @@ h2 {
 }
 
 .projectImg {
-    margin-left: -10%;
-    animation: fadeIn 3.2s 3.8s backwards;
+    animation: fadeIn 3.8s 4.2s backwards;
 }

@@ -6,9 +6,17 @@ const Contact = () => {
 
     return (
         <div className="contactTitle">
-            <h1>
-                we got nothing here right now
-            </h1>
+            <ul>
+                <h2 className="contactInfo">
+                    Email: yancy.brayden@gmail.com
+                </h2>
+            </ul>
+            <ul>
+                <h2 className="contactInfo">
+                    Phone Number: 210-393-2033
+                </h2>
+            </ul>
+
         </div>
     )
 

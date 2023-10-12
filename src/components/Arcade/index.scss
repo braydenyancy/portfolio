@@ -1,9 +1,44 @@
+.arcadePage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.arcadeInfo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    height: 10vh;
+    width: 50vw;
+    z-index: 1;
+    padding: 1em;
+}
+
+.arcadeTitle {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffd700;
+    @media (max-width: 1000px) {
+        display: none;
+    }
+    @media (max-height: 900px) {
+        display: none;
+    }
+}
+
 .Arcade {
     position: absolute;
+    width: 75vw;
+    height: 80vh;
     left: 50%;
     top: 50%;
     transform: translate(-48%, -50%);
-    @media (max-width: 600px) {
+    @media (max-width: 1000px) {
+        display: none;
+    }
+    @media (max-height: 900px) {
         display: none;
     }
 }
@@ -12,15 +47,13 @@
     font-size: 24px;
     display: none;
     color: white;
-
-    @media (max-width: 768px) {
+    width: 65vw;
+    
+    @media (max-width: 1000px) {
+        display: block;
+    }
+    @media (max-height: 900px) {
         display: block;
     }
 
-}
-.arcadeTitle {
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffd700;
-    padding: 2em;
 }
