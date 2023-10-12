@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Redirect, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import StaleFish from './components/StaleFish';
@@ -16,6 +16,7 @@ function App() {
           <Route path="/Arcade" element={<Arcade />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
+          <Route index element={<Navigate to ="/portfolio"/>}/>
       </Routes>
     </>
   );
