@@ -16,7 +16,6 @@ const Contact = () => {
                     Phone Number: 210-393-2033
                 </h2>
             </ul>
-
         </div>
     )
 
