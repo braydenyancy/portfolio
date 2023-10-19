@@ -18,7 +18,7 @@
 .arcadeTitle {
     font-size: 2rem;
     color: #ffd700;
-    @media (max-width: 1000px) {
+    @media (max-width: 1564px) {
         display: none;
     }
     @media (max-height: 900px) {
@@ -33,7 +33,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-48%, -50%);
-    @media (max-width: 1000px) {
+    @media (max-width: 1564px) {
         display: none;
     }
     @media (max-height: 900px) {
@@ -47,7 +47,7 @@
     color: white;
     width: 65vw;
     
-    @media (max-width: 1000px) {
+    @media (max-width: 1564px) {
         display: block;
     }
     @media (max-height: 900px) {

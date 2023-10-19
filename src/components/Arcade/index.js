@@ -25,7 +25,7 @@ const Arcade = () => {
                 transform: 'translate(-50%, -50%)'
             }}>
                 <h4 className="phoneArcade">
-                    Sorry! This feature isn't available on the phone!
+                    Sorry! This feature isn't available on this screen size!
                 </h4>
 
             </div>
