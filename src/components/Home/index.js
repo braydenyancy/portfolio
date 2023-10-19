@@ -17,9 +17,9 @@ const Home = () => {
             <div className='text-zone'>
                 <h1>Hi, I'm
                     <br />
-                    Brayden
+                    Brayden.
                     <br />
-                    Web Developer
+                    FullStack Developer.
                 </h1>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 <CardMedia 

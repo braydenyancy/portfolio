@@ -36,18 +36,15 @@ const Sidebar = (autoplay) => {
 
             <video className="pianoRoll" onClick={handlePlayPause} ref={videoRef} autoPlay={isPlaying} src={slimSteelin} muted loop playsInline></video>
             <nav>
+                <NavLink exact="true" activeclassname="active" className="Home-link" to="/portfolio">
+                    <FontAwesomeIcon icon={faHome} />
+                </NavLink>
 
                 <FontAwesomeIcon icon={faCode}
                     className="projectIcon"
                     onClick={() => setShowLinks(!showLinks)}
                 />
-
-                {showLinks && (
-                    <NavLink exact="true" activeclassname="active" className="Home-link" to="/portfolio">
-                        <FontAwesomeIcon icon={faHome}  />
-                    </NavLink>
-                )}
-
+                
                 {showLinks && (
                     <NavLink exact="true" activeclassname="active" className="StaleFish-link" to="/StaleFish">
                         <FontAwesomeIcon icon={faShieldAlt} />
@@ -60,9 +57,9 @@ const Sidebar = (autoplay) => {
                     </NavLink>
                 )}
 
-                    <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                        <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
-                    </NavLink>
+                <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+                    <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+                </NavLink>
 
             </nav>
             <ul>

@@ -5,7 +5,6 @@
 }
 
 .arcadeInfo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -18,7 +17,6 @@
 
 .arcadeTitle {
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffd700;
     @media (max-width: 1000px) {
         display: none;
