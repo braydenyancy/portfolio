@@ -5,6 +5,7 @@ import Home from './components/Home';
 import StaleFish from './components/StaleFish';
 import Contact from './components/Contact';
 import Arcade from './components/Arcade';
+import Rankings from './components/Rankings';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/portfolio" index element={<Home />} />
           <Route path="/StaleFish" element={<StaleFish />} />
           <Route path="/Arcade" element={<Arcade />} />
+          <Route path="/Rankings" element={<Rankings />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
           <Route index element={<Navigate to ="/portfolio"/>}/>
