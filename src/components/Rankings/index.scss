@@ -1,0 +1,81 @@
+.rankingsPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+
+    .rankingsTitleDiv {
+        position: relative;
+        text-align: center;
+
+        .rankingPageTitle {
+            position: relative;
+            color: whitesmoke;
+            font-size: 4rem;
+        }
+    }
+
+    .itemsDiv {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        width: 80vw;
+
+        .buttonDiv {
+            position: relative;
+            width: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .addItemButton {
+            position: relative;
+            width: 2em;
+            height: 2em;
+            font-size: 2rem;
+        }
+
+        .newItemsList {
+            
+        }
+        .itemTitle{
+            color: whitesmoke;
+            width: 8vw;
+        }
+        .itemPic{
+            position: relative;
+            width: 8vw;
+            height: 8vh;
+        }
+    }
+
+    .rankingTiersDiv {
+
+        .rankingsList {
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+        }
+
+        .tier {
+            position: relative;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            margin: 1.5em;
+            opacity: 90%;
+        }
+
+        h2 {
+            position: relative;
+            color: black;
+            font-size: 4rem;
+            left: 2vw;
+        }
+    }
+}

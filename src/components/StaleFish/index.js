@@ -14,7 +14,7 @@ const StaleFish = () => {
         <div className="staleFishPage">
             <div className="staleFishInfo">
 
-                <div className="titleDiv">
+                <div className="staleFishTitleDiv">
                     <h4 className="projectTitle">
                         This is StaleFish, an eCommerce site.
                     </h4>

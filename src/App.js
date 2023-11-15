@@ -8,6 +8,7 @@ import Arcade from './components/Arcade';
 import Rankings from './components/Rankings';
 
 function App() {
+
   return (
     <>
       <Routes>
@@ -18,7 +19,7 @@ function App() {
           <Route path="/Rankings" element={<Rankings />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
-          <Route index element={<Navigate to ="/portfolio"/>}/>
+        <Route index element={<Navigate to="/portfolio" />} />
       </Routes>
     </>
   );
