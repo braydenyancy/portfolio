@@ -32,8 +32,6 @@ const Sidebar = (autoplay) => {
 
     return (
         <div className='nav-bar'>
-
-
             <video className="pianoRoll" onClick={handlePlayPause} ref={videoRef} autoPlay={isPlaying} src={slimSteelin} muted loop playsInline></video>
             <nav>
                 <NavLink exact="true" activeclassname="active" className="Home-link" to="/portfolio">

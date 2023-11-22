@@ -6,91 +6,70 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
-    .rankingsTitleDiv {
-        position: relative;
-        text-align: center;
+.rankingsTitleDiv {
+    position: relative;
+    text-align: center;
 
-        .rankingPageTitle {
-            color: whitesmoke;
-            font-size: 4rem;
-        }
-    }
+}
 
-    .itemsDiv {
-        position: relative;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
-        height: auto;
-        width: 80vw;
+.rankingPageTitle {
+    color: whitesmoke;
+    font-size: 4rem;
+}
 
-        // .buttonDiv {
-        //     position: relative;
-        //     width: 10%;
-        //     display: flex;
-        //     justify-content: center;
-        //     .addItemButton {
-        //         position: relative;
-        //         width: 2em;
-        //         height: 2em;
-        //         font-size: 2rem;
-        //     }
-        // }
+.itemsDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    width: 80vw;
+}
 
-        .formDiv {
-            display: flex;
+.formDiv {
+    display: flex;
 
-            .itemForm {
-                display: flex;
-                flex-direction: column;
-            }
-        }
+}
 
-        .itemsListDiv {
-            
-            .newItemsList {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                gap: 10px;
-            }
-            .itemPic {
-                position: relative;
-                width: auto;
-                height: 8vh;
-            }
-        }
+.itemForm {
+    display: flex;
+    flex-direction: column;
+}
 
-        // .itemTitle {
-        //     color: whitesmoke;
-        //     width: 8vw;
-        // }
+.newItemsList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
-    }
+.itemPic {
+    position: relative;
+    width: auto;
+    height: 8vh;
+    cursor: move;
+}
 
-    .rankingTiersDiv {
+.rankingsList {
+    height: auto;
+    width: 80vw;
+}
 
-        .rankingsList {
-            height: auto;
-            width: 80vw;
-        }
+.tier {
+    display: flex;
+    flex-wrap: wrap;
+    height: 9vh;
+    align-items: center;
+    margin: 1em;
+    opacity: 90%;
+}
 
-        .tier {
-            position: relative;
-            height: 9vh;
-            display: flex;
-            align-items: center;
-            margin: 1em;
-            opacity: 90%;
-        }
-
-        h2 {
-            position: relative;
-            color: black;
-            font-size: 4rem;
-            left: 2vw;
-        }
-    }
+h2 {
+    position: relative;
+    color: black;
+    font-size: 4rem;
+    left: 2vw;
 }
