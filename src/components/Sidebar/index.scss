@@ -20,7 +20,7 @@ nav {
     
     text-align: center;
     
-    .projectIcon{
+    .Projects-link{
         position: relative;
         font-size: 32px;
         
@@ -68,20 +68,14 @@ nav {
             content: 'Home';
         }
     }
-    a.StaleFish-link {
+    a.Projects-link {
         &:after {
-            content: 'StaleFish';
+            content: 'Projects';
         }
     }
-    a.BBArcade-link {
-        &:after {
-            content: 'Arcade';
-        }
-    }
-
     a.contact-link {
         &:after {
-            content: 'CONTACT';
+            content: 'Contact';
         }
     }
     // sets active page icon to yellow

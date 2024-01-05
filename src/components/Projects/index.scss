@@ -1,0 +1,86 @@
+.ProjectsPage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+}
+
+.ProjectsHeader {
+    color: #fff;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    animation: fadeIn .5s 1s backwards;
+}
+
+.ProjectsGrid {
+    position: relative;
+    width: 80vmin;
+    height: auto;
+}
+
+.StaleFishProject {
+    position: relative;
+    display: flex;
+    background-color: #07180E;
+    align-items: center;
+    height: 10vmax;
+    width: auto;
+    margin: 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 1s 1.5s backwards;
+}
+
+.ArcadeProject {
+    position: relative;
+    display: flex;
+    background-color: #07180E;
+    align-items: center;
+    height: 10vmax;
+    width: auto;
+    margin: 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 1.5s 2s backwards;
+}
+
+.ProjectVideoBackground {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    opacity: 50%;
+}
+
+.ProjectImage {
+    width: 12vmin;
+    height: 12vmin;
+}
+
+.ProjectsTitle {
+    position: absolute;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.ProjectsTitle:hover {
+    transform: scale(1.5);
+    transition: 0.3s ease-in;
+    opacity: 50%;
+}
+
+.ProjectLink {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    // z-index: 1;
+}

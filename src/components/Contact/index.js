@@ -1,18 +1,10 @@
 import React from "react";
 import './index.scss'
-import resume from '../../assets/resume/braydenResumeTech.pdf'
 
 const Contact = () => {
 
     return (
         <div className="contactPage">
-            {/* <div className="resumeDiv">
-                <iframe className="resumePDF"
-                title="Brayden Yancy Resume"
-                src={resume}
-                />
-            </div> */}
-
                 <div className="contactInfoDiv">
                     <ul>
                         <h2 className="contactInfo">

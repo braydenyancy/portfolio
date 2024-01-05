@@ -14,20 +14,35 @@ const Home = () => {
 
     return (
         <div className='container home-page'>
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: 'column',
+                height: '100%',
+                width: '75%',
+            }}>
 
-            <div className='text-zone'>
-                <h1>Hi, I'm
-                    <br />
-                    Brayden.
-                    <br />
-                    FullStack Developer.
-                </h1>
-                <Link to='/contact' className='flat-button'>CONTACT ME</Link>
-                <CardMedia
-                    className="projectImg"
-                    component="img"
-                    image={projectsIMG}
-                    alt="project" />
+                <div className='text-zone'>
+                    <h1 className="HeaderAnimation">Hi, I'm
+                        <br />
+                        Brayden.
+                        <br />
+                        FullStack Developer.
+                    </h1>
+                </div>
+                <div className="contactMeButton">
+                    <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                </div>
+                <div>
+                    <CardMedia
+                        className="projectImg"
+                        component="img"
+                        image={projectsIMG}
+                        alt="project" 
+                        style={{
+                            width: '24vmax'
+                        }}/>
+                </div>
             </div>
         </div>
     )

@@ -4,12 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.resumePDF {
-    position: fixed;
-    width: 40%;
-    height: 75%;
+    font-family: 'Coolvetica';
+    letter-spacing: 2px;
 }
 .contactInfoDiv {
 display: flex;
@@ -19,5 +15,5 @@ width: 100%;
 }
 .contactInfo {
     font-size: 24px;
-    color: white;   
+    color: white;
 }

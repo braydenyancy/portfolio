@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './index.scss';
 import polarDrippy from '../../assets/images/polar drippy.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,7 +12,7 @@ const Sidebar = (autoplay) => {
 
     const [isPlaying, setIsPlaying] = useState(autoplay);
 
-    const [showLinks, setShowLinks] = useState(false);
+    // const [showLinks, setShowLinks] = useState(false);
 
     const videoRef = React.useRef(null)
 
@@ -38,28 +38,30 @@ const Sidebar = (autoplay) => {
                     <FontAwesomeIcon icon={faHome} />
                 </NavLink>
 
-                <FontAwesomeIcon icon={faCode}
-                    className="projectIcon"
-                    onClick={() => setShowLinks(!showLinks)}
-                />
-                
-                {showLinks && (
-                    <NavLink exact="true" activeclassname="active" className="StaleFish-link" to="/StaleFish">
-                        <FontAwesomeIcon icon={faShieldAlt} />
-                    </NavLink>
-                )}
+                <NavLink exact="true" activeclassname="active" className="Projects-link" to="/Projects">
+                    <FontAwesomeIcon icon={faCode}
+                    // onClick={() => setShowLinks(!showLinks)}
+                    />
+                </NavLink>
 
-                {showLinks && (
-                    <NavLink exact="true" activeclassname="active" className="BBArcade-link" to="/Arcade">
-                        <FontAwesomeIcon icon={faGamepad} />
-                    </NavLink>
-                )}
 
-                {showLinks && (
-                    <NavLink exact="true" activeclassname="active" className="Rankings-link" to="/Rankings">
-                        <FontAwesomeIcon icon={faRankingStar} />
-                    </NavLink>
-                )}
+                {/* {showLinks && ( */}
+                {/* <NavLink exact="true" activeclassname="active" className="StaleFish-link" to="/StaleFish">
+                    <FontAwesomeIcon icon={faShieldAlt} />
+                </NavLink> */}
+                {/* )} */}
+
+                {/* {showLinks && ( */}
+                {/* <NavLink exact="true" activeclassname="active" className="BBArcade-link" to="/Arcade">
+                    <FontAwesomeIcon icon={faGamepad} />
+                </NavLink> */}
+                {/* )} */}
+
+                {/* {showLinks && ( */}
+                {/* <NavLink exact="true" activeclassname="active" className="Rankings-link" to="/Rankings">
+                    <FontAwesomeIcon icon={faRankingStar} />
+                </NavLink> */}
+                {/* )} */}
 
                 <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
