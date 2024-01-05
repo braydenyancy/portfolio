@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.021c5945.css",
-    "main.js": "/portfolio/static/js/main.80440993.js",
+    "main.css": "/portfolio/static/css/main.8fe18a20.css",
+    "main.js": "/portfolio/static/js/main.668be520.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/siteAndProductPage.mp4": "/portfolio/static/media/siteAndProductPage.0e5b0c911639f7717a11.mp4",
     "static/media/signInOutLocalCart.mp4": "/portfolio/static/media/signInOutLocalCart.afe442a3101638773ce7.mp4",
     "static/media/productList.mp4": "/portfolio/static/media/productList.dd49c333888913315727.mp4",
     "static/media/slimSteel.mp4": "/portfolio/static/media/slimSteel.c8fb8cd2fe6d9be40ef7.mp4",
     "static/media/polar drippy.png": "/portfolio/static/media/polar drippy.76c93117dbd1a80bfd19.png",
-    "static/media/braydenResumeTech.pdf": "/portfolio/static/media/braydenResumeTech.926a0357d47def16c25d.pdf",
+    "static/media/ArcadeSnippet.mp4": "/portfolio/static/media/ArcadeSnippet.a67e4209409d75b87ca8.mp4",
     "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/Projects.png": "/portfolio/static/media/Projects.a449e91c92dc7fba0b60.png",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
-    "main.021c5945.css.map": "/portfolio/static/css/main.021c5945.css.map",
-    "main.80440993.js.map": "/portfolio/static/js/main.80440993.js.map",
+    "main.8fe18a20.css.map": "/portfolio/static/css/main.8fe18a20.css.map",
+    "main.668be520.js.map": "/portfolio/static/js/main.668be520.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.021c5945.css",
-    "static/js/main.80440993.js"
+    "static/css/main.8fe18a20.css",
+    "static/js/main.668be520.js"
   ]
 }
