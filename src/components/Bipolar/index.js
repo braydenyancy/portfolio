@@ -11,11 +11,11 @@ const Bipolar = () => {
 
                 <div className="projectTitleDiv">
                     <h4 className="projectTitle">
-                        Bipolar IO, a media start up
+                        Bipolar IO, a new media application.
                     </h4>
                     <p className="summary">
-                        Bipolar Entertainment is a media start up that I am helping to create with a small team of developers.
-                        The goal is to create a new and interactable experience within the music and media industry.
+                        Bipolar Entertainment is a start up that I am helping to create with a small team of developers.
+                        The goal is to create a new and interactable music experience within the media industry.
                     </p>
                 </div>
                 <div className="containerRow">
@@ -31,7 +31,7 @@ const Bipolar = () => {
                     </div>
                     <div className="item">
                         <h4 className="projectTitles">
-                            Artist Page (Polar Drippy)
+                            Artist Page
                         </h4>
                     </div>
                     <div className="item">
@@ -62,12 +62,12 @@ const Bipolar = () => {
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            This application uses TypeScript with React/Redux on the front end to display and create a new and interactable experience while the user explores the media labels upcoming artists.
+                            Using TypeScript and React/Redux frameworks on the front end, we display and create a new, interactable experience for the user while they explore the labels featured and upcoming artists.
                         </p>
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            I created an Artist page that displays the artists biography, interesting information and their discography. The site is set to launch quarter one of 2024 so I cannot display the artist page here currently.
+                            I created an Artist page that displays the artists biography, interesting information about them, and their respective discographys. (The site is set to launch quarter one of 2024 so I cannot display the artists page here currently.)
                         </p>
                     </div>
                 </div>
