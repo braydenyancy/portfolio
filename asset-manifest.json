@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8f85782e.css",
-    "main.js": "/portfolio/static/js/main.5444b706.js",
+    "main.css": "/portfolio/static/css/main.65fd2f2e.css",
+    "main.js": "/portfolio/static/js/main.6060667b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/siteAndProductPage.mp4": "/portfolio/static/media/siteAndProductPage.0e5b0c911639f7717a11.mp4",
     "static/media/signInOutLocalCart.mp4": "/portfolio/static/media/signInOutLocalCart.afe442a3101638773ce7.mp4",
     "static/media/productList.mp4": "/portfolio/static/media/productList.dd49c333888913315727.mp4",
     "static/media/BipolarSiteTransitions.mp4": "/portfolio/static/media/BipolarSiteTransitions.2bfc5361bf1e410709d8.mp4",
     "static/media/BipolarLandingPage.mp4": "/portfolio/static/media/BipolarLandingPage.054f15ec42896de4ff55.mp4",
+    "static/media/BipolarArtistPage.mp4": "/portfolio/static/media/BipolarArtistPage.7abfa35ff490e01e8364.mp4",
     "static/media/slimSteel.mp4": "/portfolio/static/media/slimSteel.c8fb8cd2fe6d9be40ef7.mp4",
     "static/media/polar drippy.png": "/portfolio/static/media/polar drippy.76c93117dbd1a80bfd19.png",
     "static/media/ArcadeSnippet.mp4": "/portfolio/static/media/ArcadeSnippet.a67e4209409d75b87ca8.mp4",
@@ -17,12 +18,12 @@
     "static/media/Projects.png": "/portfolio/static/media/Projects.a449e91c92dc7fba0b60.png",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
-    "main.8f85782e.css.map": "/portfolio/static/css/main.8f85782e.css.map",
-    "main.5444b706.js.map": "/portfolio/static/js/main.5444b706.js.map",
+    "main.65fd2f2e.css.map": "/portfolio/static/css/main.65fd2f2e.css.map",
+    "main.6060667b.js.map": "/portfolio/static/js/main.6060667b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f85782e.css",
-    "static/js/main.5444b706.js"
+    "static/css/main.65fd2f2e.css",
+    "static/js/main.6060667b.js"
   ]
 }
