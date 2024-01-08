@@ -2,7 +2,7 @@ import React from "react";
 import './index.scss';
 import BipolarLandingPage from '../../assets/videos/BipolarLandingPage.mp4';
 import BipolarSiteTransitions from '../../assets/videos/BipolarSiteTransitions.mp4';
-import PolarDrippy from '../../assets/images/polar drippy.png';
+import BipolarArtistPage from '../../assets/videos/BipolarArtistPage.mp4';
 
 const Bipolar = () => {
     return (
@@ -13,6 +13,9 @@ const Bipolar = () => {
                     <h4 className="projectTitle">
                         Bipolar IO, a new media application.
                     </h4>
+                    {/* <h4 className="projectTitle">
+                        About this Project
+                    </h4> */}
                     <p className="summary">
                         Bipolar Entertainment is a start up that I am helping to create with a small team of developers.
                         The goal is to create a new and interactable music experience within the media industry.
@@ -44,16 +47,10 @@ const Bipolar = () => {
                             <source src={BipolarSiteTransitions} />
                         </video>
                     </div>
-                    <div className="item" style={{
-                        backgroundColor: 'black'
-                    }}>
-                        {/* <video className='videoBackground' autoPlay muted loop playsInline>
-                            <source src={productList} />
-                        </video> */}
-                        {/* <img src={PolarDrippy} alt="Sorry picture not loading" style={{
-                            width: '100%',
-                            height: '100%',
-                        }}/> */}
+                    <div className="item">
+                        <video className='videoBackground' autoPlay muted loop playsInline>
+                            <source src={BipolarArtistPage} />
+                        </video>
                     </div>
                     <div className="item">
                         <p className="p-text">
@@ -67,7 +64,7 @@ const Bipolar = () => {
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            I created an Artist page that displays the artists biography, interesting information about them, and their respective discographys. (The site is set to launch quarter one of 2024 so I cannot display the artists page here currently.)
+                            I created an Artist page that displays the artists biography, interesting information about them, and their respective discographys. It's responsive design allows for a suitable experience on any screen size.
                         </p>
                     </div>
                 </div>
