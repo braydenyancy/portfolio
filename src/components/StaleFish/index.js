@@ -11,10 +11,10 @@ const StaleFish = () => {
 
     return (
 
-        <div className="staleFishPage">
-            <div className="staleFishInfo">
+        <div className="projectPage">
+            <div className="projectInfo">
 
-                <div className="staleFishTitleDiv">
+                <div className="projectTitleDiv">
                     <h4 className="projectTitle">
                         This is StaleFish, an eCommerce site.
                     </h4>
@@ -24,17 +24,17 @@ const StaleFish = () => {
                 </div>
                 <div className="containerRow">
                     <div className="item">
-                        <h4 className="staleTitles">
+                        <h4 className="projectTitles">
                             Sign in/out, plus local cart feature
                         </h4>
                     </div>
                     <div className="item">
-                        <h4 className="staleTitles">
+                        <h4 className="projectTitles">
                             Site and Product Page
                         </h4>
                     </div>
                     <div className="item">
-                        <h4 className="staleTitles">
+                        <h4 className="projectTitles">
                             Product List
                         </h4>
                     </div>

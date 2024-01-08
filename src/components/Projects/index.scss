@@ -6,6 +6,7 @@
     align-items: center;
     position: absolute;
     flex-direction: column;
+    font-family: 'Helvetica';
 }
 
 .ProjectsHeader {
@@ -15,6 +16,7 @@
     font-family: 'Coolvetica';
     font-weight: 400;
     animation: fadeIn .5s 1s backwards;
+    text-align: center;
 }
 
 .ProjectsGrid {
@@ -23,7 +25,7 @@
     height: auto;
 }
 
-.StaleFishProject {
+.BipolarProject {
     position: relative;
     display: flex;
     background-color: #07180E;
@@ -35,8 +37,7 @@
     overflow: hidden;
     animation: fadeIn 1s 1.5s backwards;
 }
-
-.ArcadeProject {
+.StaleFishProject {
     position: relative;
     display: flex;
     background-color: #07180E;
@@ -49,11 +50,31 @@
     animation: fadeIn 1.5s 2s backwards;
 }
 
+.ArcadeProject {
+    position: relative;
+    display: flex;
+    background-color: #07180E;
+    align-items: center;
+    height: 10vmax;
+    width: auto;
+    margin: 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 2s 2.5s backwards;
+}
+
 .ProjectVideoBackground {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: top;
+    opacity: 50%;
+}
+
+.ProjectVideoBackgroundBipolar {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     opacity: 50%;
 }
 
@@ -74,7 +95,7 @@
 
 .ProjectsTitle:hover {
     transform: scale(1.5);
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in-out;
     opacity: 50%;
 }
 
@@ -82,5 +103,4 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    // z-index: 1;
 }

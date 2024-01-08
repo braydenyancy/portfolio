@@ -3,12 +3,21 @@ import './index.scss';
 import { NavLink } from "react-router-dom";
 import StaleFishSnippet from '../../assets/videos/siteAndProductPage.mp4';
 import ArcadeSnippet from '../../assets/videos/ArcadeSnippet.mp4';
+import BipolarLoading from '../../assets/videos/BipolarLoading.mp4';
 
 const Projects = () => {
     return (
         <div className="ProjectsPage">
             <h1 className="ProjectsHeader">My Projects</h1>
             <div className="ProjectsGrid">
+                <div className="BipolarProject">
+                    <video className='ProjectVideoBackgroundBipolar' autoPlay muted loop playsInline>
+                        <source src={BipolarLoading} />
+                    </video>
+                    <NavLink exact="true" activeclassname="active" className="ProjectLink" to="/Bipolar">
+                    <h1 className="ProjectsTitle">Bipolar Media</h1>
+                    </NavLink>
+                </div>
                 <div className="StaleFishProject">
                     <video className='ProjectVideoBackground' autoPlay muted loop playsInline>
                         <source src={StaleFishSnippet} />

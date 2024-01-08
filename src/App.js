@@ -7,6 +7,7 @@ import StaleFish from './components/StaleFish';
 import Contact from './components/Contact';
 import Arcade from './components/Arcade';
 import Rankings from './components/Rankings';
+import Bipolar from './components/Bipolar';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/portfolio" index element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Bipolar" element={<Bipolar />} />
           <Route path="/StaleFish" element={<StaleFish />} />
           <Route path="/Arcade" element={<Arcade />} />
           <Route path="/Rankings" element={<Rankings />} />
