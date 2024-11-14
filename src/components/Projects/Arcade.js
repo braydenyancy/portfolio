@@ -1,5 +1,5 @@
 import React from "react";
-import './index.scss';
+import './css/Arcade.scss';
 
 const Arcade = () => {
     return (
@@ -25,9 +25,14 @@ const Arcade = () => {
                 transform: 'translate(-50%, -50%)'
             }}>
                 <h4 className="phoneArcade">
-                    Sorry! This feature isn't available on this screen size!
+                    Sorry! This is an old project, and isn't available on the portfolio for this screen size! Try the main site here!
                 </h4>
-
+                <a href="https://bbarcade.netlify.app/" target="_blank" rel="noopener noreferrer" style={{
+                    fontSize: '2rem',
+                    color: 'whitesmoke'
+                }}>
+                    Open in New Tab!
+                </a>
             </div>
         </div>
     )

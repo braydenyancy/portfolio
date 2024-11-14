@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="contactMeButton">
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
-                <div>
+                {/* <div>
                     <CardMedia
                         className="projectImg"
                         component="img"
@@ -42,7 +42,7 @@ const Home = () => {
                         style={{
                             width: '24vmax'
                         }}/>
-                </div>
+                </div> */}
             </div>
         </div>
     )

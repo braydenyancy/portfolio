@@ -1,70 +1,71 @@
 import React from "react";
-import './index.scss';
-import BipolarLandingPage from '../../assets/videos/BipolarLandingPage.mp4';
-import BipolarSiteTransitions from '../../assets/videos/BipolarSiteTransitions.mp4';
-import BipolarArtistPage from '../../assets/videos/BipolarArtistPage.mp4';
+import { CardMedia, Grid } from "@mui/material";
+import polarDrippy from '../../assets/images/polar drippy.png';
+import signInOut from '../../assets/videos/signInOutLocalCart.mp4';
+import siteAndProduct from '../../assets/videos/siteAndProductPage.mp4';
+import productList from '../../assets/videos/productList.mp4';
+import './css/Projects.scss';
 
-const Bipolar = () => {
+
+const StaleFish = () => {
+
     return (
+
         <div className="projectPage">
             <div className="projectInfo">
 
                 <div className="projectTitleDiv">
                     <h4 className="projectTitle">
-                        Bipolar IO, a new media application.
+                        This is StaleFish, an eCommerce site.
                     </h4>
-                    {/* <h4 className="projectTitle">
-                        About this Project
-                    </h4> */}
                     <p className="summary">
-                        Bipolar Entertainment is a start up that I am helping to create with a small team of developers.
-                        The goal is to create a new and interactable music experience within the media industry.
+                        It features skateboards, trunks, wheels, barrings and more... I helped build this as a group project for my UTD Bootcamps capstone final. It is a full stack project that uses PostgreSQL, Javascript, React, Express and Morgan.
                     </p>
                 </div>
                 <div className="containerRow">
                     <div className="item">
                         <h4 className="projectTitles">
-                            Landing Page
+                            Sign in/out, plus local cart feature
                         </h4>
                     </div>
                     <div className="item">
                         <h4 className="projectTitles">
-                            Transitions and Sneak Peak
+                            Site and Product Page
                         </h4>
                     </div>
                     <div className="item">
                         <h4 className="projectTitles">
-                            Artist Page
+                            Product List
                         </h4>
                     </div>
                     <div className="item">
                         <video className='videoBackground' autoPlay muted loop playsInline>
-                            <source src={BipolarLandingPage} />
+                            <source src={signInOut} />
                         </video>
                     </div>
                     <div className="item">
                         <video className='videoBackground' autoPlay muted loop playsInline>
-                            <source src={BipolarSiteTransitions} />
+                            <source src={siteAndProduct} />
                         </video>
                     </div>
                     <div className="item">
                         <video className='videoBackground' autoPlay muted loop playsInline>
-                            <source src={BipolarArtistPage} />
+                            <source src={productList} />
                         </video>
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            With custom CSS and a team of graphic designers, the landing page is a unique introduction to the new web application.
+                            Using JWT for local storage, users can create a cart while signed in or out, and add to the cart while signed in / out.
                         </p>
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            Using TypeScript and React/Redux frameworks on the front end, we display and create a new, interactable experience for the user while they explore the labels featured and upcoming artists.
+                            On the front end we use React, MUI and native CSS to create a free flowing experience for the user.
                         </p>
                     </div>
                     <div className="item">
                         <p className="p-text">
-                            I created an Artist page that displays the artists biography, interesting information about them, and their respective discographys. It's responsive design allows for a suitable experience on any screen size.
+                            We created a Database and API for the backend, that makes asynchronous calls to display products on the front end.
                         </p>
                     </div>
                 </div>
@@ -72,6 +73,7 @@ const Bipolar = () => {
             </div>
         </div>
     )
+
 }
 
-export default Bipolar;
+export default StaleFish;

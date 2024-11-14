@@ -1,28 +1,13 @@
 .ProjectsPage {
     display: flex;
     width: 100%;
-    height: 100%;
-    justify-content: center;
+    height: auto;
+    overflow: auto;
+    justify-content: flex-start;
     align-items: center;
     position: absolute;
     flex-direction: column;
     font-family: 'Helvetica';
-}
-
-.ProjectsHeader {
-    color: #fff;
-    font-size: 53px;
-    margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-    animation: fadeIn .5s 1s backwards;
-    text-align: center;
-}
-
-.ProjectsGrid {
-    position: relative;
-    width: 80vmin;
-    height: auto;
 }
 
 .BipolarProject {
@@ -30,26 +15,24 @@
     display: flex;
     background-color: #07180E;
     align-items: center;
-    height: 10vmax;
-    width: auto;
-    margin: 1em;
-    border-radius: 8px;
+    height: 44vmax;
+    width: 100%;
     overflow: hidden;
-    animation: fadeIn 1s 1.5s backwards;
-    border: 4px solid black;
+    opacity: 1;
+    animation: fadeOpacity 0.5 0.75s backwards;
 }
+
 .StaleFishProject {
     position: relative;
     display: flex;
     background-color: #07180E;
     align-items: center;
-    height: 10vmax;
-    width: auto;
-    margin: 1em;
-    border-radius: 8px;
+    height: 44vmax;
+    width: 100%;
     overflow: hidden;
-    animation: fadeIn 1.5s 2s backwards;
-    border: 4px solid black;
+    opacity: 1;
+    animation: fadeOpacity 0.5 0.75s backwards;
+    // animation: fadeOpacity 0.75s 1s backwards;
 }
 
 .ArcadeProject {
@@ -57,17 +40,16 @@
     display: flex;
     background-color: #07180E;
     align-items: center;
-    height: 10vmax;
-    width: auto;
-    margin: 1em;
-    border-radius: 8px;
+    height: 44vmax;
+    width: 100%;
     overflow: hidden;
-    animation: fadeIn 2s 2.5s backwards;
-    border: 4px solid black;
+    opacity: 1;
+    animation: fadeOpacity 0.5 0.75s backwards;
+    // animation: fadeOpacity 1s 1.25s backwards;
 }
 
 .ProjectVideoBackground {
-    height: 100%;
+    height: 90%;
     width: 100%;
     object-fit: cover;
     object-position: top;
@@ -75,7 +57,7 @@
 }
 
 .ProjectVideoBackgroundBipolar {
-    height: 100%;
+    height: 90%;
     width: 100%;
     object-fit: cover;
     opacity: 50%;
@@ -97,13 +79,26 @@
 }
 
 .ProjectsTitle:hover {
-    transform: scale(1.5);
+    transform: scale(2.5);
     transition: 0.3s ease-in-out;
-    opacity: 50%;
+    opacity: 75%;
+    background-color: #0c3e21;
 }
 
 .ProjectLink {
     position: absolute;
     height: 100%;
     width: 100%;
+}
+
+@media (min-width: 1366px) {
+    .BipolarProject {
+        height: 24vmax;
+    }
+    .StaleFishProject {
+        height: 24vmax;
+    }
+    .ArcadeProject {
+        height: 24vmax;
+    }
 }

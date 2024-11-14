@@ -2,12 +2,12 @@ import './App.scss';
 import { Routes, Route, Redirect, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
-import Projects from './components/Projects';
-import StaleFish from './components/StaleFish';
+import Projects from './components/Projects/Projects';
+import StaleFish from './components/Projects/Stalefish';
 import Contact from './components/Contact';
-import Arcade from './components/Arcade';
+import Arcade from './components/Projects/Arcade';
 import Rankings from './components/Rankings';
-import Bipolar from './components/Bipolar';
+import Bipolar from './components/Projects/Bipolar';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/portfolio" index element={<Home />} />
+          <Route path="/Home" index element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Bipolar" element={<Bipolar />} />
           <Route path="/StaleFish" element={<StaleFish />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Rankings" element={<Rankings />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
-        <Route index element={<Navigate to="/portfolio" />} />
+        <Route index element={<Navigate to="/Home" />} />
       </Routes>
     </>
   );
