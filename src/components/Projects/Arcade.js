@@ -26,13 +26,14 @@ const Arcade = () => {
             }}>
                 <h4 className="phoneArcade">
                     Sorry! This is an old project, and isn't available on the portfolio for this screen size! Try the main site here!
+                    <br></br>
+                    <a href="https://bbarcade.netlify.app/" target="_blank" rel="noopener noreferrer" style={{
+                        fontSize: '2rem',
+                        color: 'whitesmoke'
+                    }}>
+                        Open in New Tab!
+                    </a>
                 </h4>
-                <a href="https://bbarcade.netlify.app/" target="_blank" rel="noopener noreferrer" style={{
-                    fontSize: '2rem',
-                    color: 'whitesmoke'
-                }}>
-                    Open in New Tab!
-                </a>
             </div>
         </div>
     )
